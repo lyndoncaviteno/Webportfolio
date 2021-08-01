@@ -18,16 +18,52 @@
 	overflow: auto;
 }
 
-.sections {
-	text-align: center;
+h1 {
+	padding: 250px;
+	font-size: 80px;
 }
 
-.image {
-	background-size: cover;
-	overflow: hidden;
-	min-height: 100%;
-  	min-width: 1024px;
- 	 width: 100%;
-  	height: auto;
+body #first_section {
+	background-color: red;
+	height: 100vh;
+	margin: 0;
+}
 
+body #second_section {
+	background-color: green;
+	height: 100vh;
+	margin: 0;
+}
+
+body #third_section {
+	background-color: blue;
+	height: 100vh;
+	margin: 0;
+}
+
+body #fourth_section > .skills .skills_image_background{
+	width: 85%;
+	height: 100vh;
+	margin: 0;
+}
+
+body #fifth_section {
+	background-color: yellow;
+	height: 100vh;
+	margin: 0;
+}
+
+body #sixth_section {
+	background-color: orange;
+	height: 100vh;
+	margin: 0;
+}
+
+body #sixth_section > .contact .formal {
+	border-radius: 50%;
+	width: 350px;
+}
+
+.contact {
+	text-align: center;
 }
