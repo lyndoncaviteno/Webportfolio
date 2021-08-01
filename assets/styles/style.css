@@ -60,6 +60,11 @@ body #first_section {
 	margin: 0;
 }
 
+body #first_section > .VLC .formal2 {
+	width: 350px;
+	border-radius: 50%;
+}
+
 body #second_section {
 	background-color: green;
 	height: 100vh;
