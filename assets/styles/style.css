@@ -49,13 +49,13 @@ button {
 
 
 h1 {
-	padding: 250px;
-	font-size: 80px;
+	padding: 50px;
+	font-size: 60px;
 }
 
 
 body #first_section {
-	background-color: red;
+	background-color: white;
 	height: 100vh;
 	margin: 0;
 }
@@ -63,18 +63,23 @@ body #first_section {
 body #first_section > .VLC .formal2 {
 	width: 350px;
 	border-radius: 50%;
+	margin-left: 1000px;
 }
 
 body #second_section {
-	background-color: green;
+	background-color: #EBEDF3;
 	height: 100vh;
 	margin: 0;
 }
 
 body #third_section {
-	background-color: blue;
+	background-color: white;
 	height: 100vh;
 	margin: 0;
+}
+
+body #fourth_section {
+	height: 100vh;
 }
 
 body #fourth_section > .skills .skills_image_background{
@@ -84,9 +89,14 @@ body #fourth_section > .skills .skills_image_background{
 }
 
 body #fifth_section {
-	background-color: yellow;
+	background-color: #EBEDF3;
 	height: 100vh;
 	margin: 0;
+}
+
+body #fifth_section > .education .upd {
+	height: 100vh;
+	padding: 3px;
 }
 
 body #sixth_section {
@@ -100,6 +110,6 @@ body #sixth_section > .contact .formal {
 	width: 350px;
 }
 
-.contact {
+/*.contact {
 	text-align: center;
-}
+}*/
