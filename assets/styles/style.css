@@ -17,7 +17,7 @@
 
 header {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
 	padding: 10px;
 	background-color: #003B6D;
@@ -26,9 +26,8 @@ header {
 }
 
 .vlc_logo {
-	cursor: pointer;
 	width: 50px;
-	margin-right: auto;
+	margin-right: 30px;
 }
 
 .navbar_items {
@@ -62,11 +61,11 @@ button {
 }
 
 #first_section > .VLC .text1 {
-	padding-top: 80px;
+	padding-top: 70px;
 	padding-left: 100px;
 	padding-right: 100px;
 	margin-top: 10px;
-	font-size: 55px
+	font-size: 50px
 }
 
 #first_section > .VLC .text2 {
@@ -74,7 +73,7 @@ button {
 	padding-top: 10px;
 }
 
-#second_section {
+/*#second_section {
 	background-color: #EBEDF3;
 	height: 100vh;
 	margin: 0;
@@ -85,55 +84,71 @@ button {
 	padding-top: 50px;
 	padding-left: 500px;
 	display: inline;
-}
+}*/
 
 #third_section {
-	background-color: white;
-	height: 100vh;
-	margin: 0;
-}
-
-body #fourth_section {
-	height: 100vh;
-}
-
-body #fourth_section > .skills .skills_image_background {
-	width: 85%;
-	height: 100vh;
-	margin: 0;
-}
-
-body #fifth_section {
 	background-color: #EBEDF3;
 	height: 100vh;
 	margin: 0;
 }
 
-body #fifth_section > .education .upd_shots {
-	width: 242px;
-	padding: 3px;
-	margin-top: 80px;
-	margin-left: 7px;
-}
-
-body #fifth_section .education_texts {
+#third_section .projects h2 {
 	text-align: center;
-	margin-top: 50px;
+}
+#fourth_section {
+	height: 100vh;
+	background-color: white;
 }
 
-body #fifth_section .education_texts .upm {
-	font-size:	50px;
-	font-style: bold;
+#fourth_section > .skills h2 {
+	width: 85%;
+	margin: 0;
+	padding-top: 80px;
+	text-align: center;
 }
 
-body #sixth_section {
-	background-color: orange;
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#fifth_section {
+	background-color: #EBEDF3;
 	height: 100vh;
 	margin: 0;
 }
 
-body #sixth_section > .contact .formal {
+#fifth_section > .education .upd_shots {
+	width: 242px;
+	padding: 3px;
+	margin-top: 80px;
+	margin-left: 7px;
+	display: inline-flex;
+}
+
+#fifth_section .education_texts {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#fifth_section .education_texts .upm {
+	font-size:	50px;
+	font-style: bold;
+}
+
+#fift_section > .education h2 {
+	text-align: center;
+	padding-top: 80px;
+}
+
+#sixth_section {
+	background-color: #EBEDF3;
+	height: 100vh;
+	margin: 0;
+}
+
+#sixth_section > .contact .formal {
 	border-radius: 50%;
 	width: 350px;
 }
-

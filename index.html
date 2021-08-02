@@ -2,31 +2,33 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
 	
 	<link rel="stylesheet" href="./assets/styles/style.css">
 
-	<link rel="icon" href="https://img.icons8.com/color/50/000000/batman-emoji.png">
+	<!-- <link rel="icon" href="https://img.icons8.com/color/50/000000/batman-emoji.png"> -->
 
 	<title>Van Lyndon Caviteno Web Portfolio</title>
 </head>
 <body>
 	<header>
 
-		<!-- <a href="header"> -->
-		<img class="vlc_logo" src="./assets/images/VLC logo.png" alt="">
-		<!-- </a> -->
+		<a href="">
+		<img class="vlc_logo" src="./assets/images/VLC logo.png" alt="image unavailable">
+		</a>
 
 		<nav class="top_page">
 			<ul class="navbar_items">
-				<li class="navbar_list"><a class="navbar_links" href="#second_section">Work Experience</a></li>
+				<!-- <li class="navbar_list"><a class="navbar_links" href="#second_section">Work Experience</a></li> -->
 				<li class="navbar_list"><a class="navbar_links" href="#third_section">Projects</a></li>
 				<li class="navbar_list"><a class="navbar_links" href="#fourth_section">Tools</a></li>
 				<li class="navbar_list"><a class="navbar_links" href="#fifth_section">Education</a></li>
 			</ul>
 		</nav>
-		<a class="navbar_list" href="sixth_section"><button>Contact</button></a>
+		<a class="navbar_list" href="#sixth_section"><button>Contact</button></a>
 	</header>
 	
 	<section id="first_section" class="sections">
@@ -40,8 +42,9 @@
 		</div>
 	</section>
 
-	<section id="second_section" class="sections">
+	<!-- <section id="second_section" class="sections">
 		<div class="work">
+			<h2 class="section_title">Work Experience</h2>
 			<ul class="work_list">
 				<li>Real Estate Appraiser</li>
 				<li>Real Estate Broker</li>
@@ -49,11 +52,12 @@
 				<li>Full-Stack Web Developer</li>
 			</ul>
 		</div>
-	</section>
+	</section> -->
 
 	<section id="third_section" class="sections">
 		<div class="projects">
-			<!-- <h2>Projects</h2> -->
+			<!-- <h2 class="section_title">Projects</h2> -->
+
 			<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 			<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_m9zragkd.json"  background="transparent"  speed="1"  style="width: 700px; height: 700px;"  loop  autoplay></lottie-player>
 		</div>
@@ -61,30 +65,29 @@
 
 	<section id="fourth_section" class="sections">
 		<div class="skills">
-			<h2>Tools</h2>
-
-			<img class="image_skills" src="./assets/images/logo-git.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-gitlab-ci-cd.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-sublime-text-3.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-html5.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-css3.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-bootstrap.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-javascript.png" alt="image unavailable">
-
-			<img class="image_skills" src="./assets/images/logo-expressjs.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-heroku.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-mongodb.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-nodejs.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-postman.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-react.png" alt="image unavailable">
-			<img class="image_skills" src="./assets/images/logo-rest.png" alt="image unavailable">
-
+			<!-- <h2 class="section_title">Tools</h2> -->
+			<div>
+				<img class="image_skills" src="./assets/images/logo-git.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-gitlab-ci-cd.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-sublime-text-3.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-html5.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-css3.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-bootstrap.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-javascript.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-expressjs.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-heroku.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-mongodb.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-nodejs.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-postman.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-react.png" alt="image unavailable">
+				<img class="image_skills" src="./assets/images/logo-rest.png" alt="image unavailable">
+			</div>
 		</div>
 	</section>
 	
 	<section id="fifth_section" class="sections">
 		<div class="education">
-			<h2 class="heading_education">Education</h2>
+			<!-- <h2 class="section_title">Education</h2> -->
 			<img class="upd_shots" src="./assets/images/up0.jpg" alt="image unavailable">
 			<img class="upd_shots" src="./assets/images/up1.jpg" alt="image unavailable">
 			<img class="upd_shots" src="./assets/images/up2.jpg" alt="image unavailable">
@@ -107,19 +110,35 @@
 		</div>
 	</section>
 
-<!-- 	<section id="sixth_section" class="sections">
+	<section id="sixth_section" class="sections">
 		<div class="contact">
-			<img class="formal" src="./assets/images/formal2.jpg" alt="image unavailable">
-			<h2 class="contact_title">Contact</h2>
-			<h3 class="contact_email">E-mail Address: lyndoncaviteno@gmail.com</h3>
-			<h3 class="contact_number">Contact Numbers: 0975 032 7775 / 0947 448 5223</h3>
-			
-			<div>
-				<a href="#top page">Back To Top</a>
-			</div>
+            <!-- <h3 class="section_title">Contact</h3> -->
+                <form>
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Insert Full Name Here">
+                    </div>
 
-		</div>
-	</section> -->
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" placeholder="Insert Email Here">
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea cols="30" rows="5" class="form-control"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success btn-block">Send</button>
+                </form>
+            </div>
+       </div>
+			
+			<!-- <div>
+				<a href=".vlc_logo">Back To Top</a>
+			</div> -->
+	</section>
 
 	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
