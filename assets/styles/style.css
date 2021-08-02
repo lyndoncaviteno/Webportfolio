@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
+
 * { 
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		font-family: GFSmith, sans-serif;
+		font-family: Heebo, sans-serif;
 		scroll-behavior: smooth;
 	}
 
@@ -53,17 +55,29 @@ h1 {
 	font-size: 60px;
 }
 
+body #first_section > .VLC .formal2 {
+	width: 450px;
+	border-radius: 50%;
+	margin-left: 1000px;
+	padding: 80px;
+}
 
 body #first_section {
 	background-color: white;
 	height: 100vh;
 	margin: 0;
+	padding: 2px;
+	/*text-align: center;*/
 }
 
-body #first_section > .VLC .formal2 {
-	width: 350px;
-	border-radius: 50%;
-	margin-left: 1000px;
+body #first_section > .VLC .text1 {
+	font-size: 50px
+	/*text-align: left;*/
+}
+
+body #first_section > .VLC h2 {
+	font-size: 30px
+	text-align: center;
 }
 
 body #second_section {
@@ -82,7 +96,7 @@ body #fourth_section {
 	height: 100vh;
 }
 
-body #fourth_section > .skills .skills_image_background{
+body #fourth_section > .skills .skills_image_background {
 	width: 85%;
 	height: 100vh;
 	margin: 0;
@@ -94,9 +108,16 @@ body #fifth_section {
 	margin: 0;
 }
 
-body #fifth_section > .education .upd {
-	height: 100vh;
+body #fifth_section > .education .upd_shots {
+	width: 140px;
 	padding: 3px;
+	margin-top: 80px;
+	margin-left: 7px;
+}
+
+body #fifth_section .education_texts {
+	text-align: center;
+	margin-top: 50px;
 }
 
 body #sixth_section {
@@ -110,6 +131,3 @@ body #sixth_section > .contact .formal {
 	width: 350px;
 }
 
-/*.contact {
-	text-align: center;
-}*/
