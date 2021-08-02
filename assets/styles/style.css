@@ -163,7 +163,10 @@ header {
 form {
 	margin-left: 350px;
 	margin-right: 350px;
+}
 
+nav .socmed_links {
+	width: 10px;
 }
 
 .footer {
